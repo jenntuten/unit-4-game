@@ -1,0 +1,79 @@
+body {
+background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+}
+
+p {margin: 10px;}
+.titleBox {
+    height: 60px;
+    width: 300px;
+    background: brown;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+
+}
+.description {
+    width: 400px;
+    background: tan;
+    color: green;
+    font-weight: bold;
+}
+.randomComputerNumber {
+float: left;
+background:cadetblue;
+height: 80px;
+width: 150px;
+margin-bottom: 15px;
+margin-right: 8px;
+font-size: 40px;
+}
+.winsAndLosses {
+float: left;
+background: cyan;
+height: 80px;
+width: 77px;
+margin-bottom: 15px;
+}
+.crystals {
+    clear: both;
+    margin-bottom: 15px;
+}
+.crystal1, .crystal2, .crystal3, .crystal4 {
+clear:both;
+display: inline;
+margin-right: 10px;
+background: white;
+margin-bottom: 15px;
+height: 67px;
+width: 48px;
+}
+.crystal1
+{background: blue;
+}
+.crystal2
+{
+    background: purple;
+}
+.crystal3{background: green;}
+.crystal4{
+    background: pink;
+}
+
+.scoreBar {
+    clear: both;
+background: teal;
+height: 30px;
+width: 250px;
+margin-bottom: 15px;
+color: white;
+line-height: 30px;
+}
+.userNumber {
+    background: teal;
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+    color: white;
+}
