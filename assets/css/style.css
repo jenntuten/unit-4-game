@@ -1,30 +1,33 @@
 body {
 background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+font-family: 'Times New Roman', Times, serif
 }
 
 p {margin: 10px;}
 .titleBox {
     height: 60px;
-    width: 300px;
+    max-width: 515px;
     background: brown;
     color: white;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     line-height: 60px;
+    margin-bottom: 15px;
 
 }
 .description {
-    width: 400px;
+    max-width: 500px;
     background: tan;
     color: green;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 .randomComputerNumber {
 float: left;
 background:cadetblue;
 height: 80px;
-width: 150px;
+width: 300px;
 margin-bottom: 15px;
 margin-right: 8px;
 font-size: 40px;
@@ -33,7 +36,7 @@ font-size: 40px;
 float: left;
 background: cyan;
 height: 80px;
-width: 77px;
+width: 200px;
 margin-bottom: 15px;
 }
 .crystals {
@@ -46,26 +49,23 @@ display: inline;
 margin-right: 10px;
 background: white;
 margin-bottom: 15px;
-height: 67px;
-width: 48px;
 }
-.crystal1
-{background: blue;
-}
-.crystal2
-{
-    background: purple;
-}
-.crystal3{background: green;}
-.crystal4{
-    background: pink;
-}
+.card {background: tan;
+margin-bottom: 15px;
+color: green;
+font-family: 'Times New Roman', Times, serif;
+max-width: 515px;}
+.btn, .btn:hover, btn:visited {text-decoration: none;
+color: green;}
+a, a:hover, a:visited { text-decoration: none;
+color: green;
+font-family: 'Times New Roman', Times, serif}
 
 .scoreBar {
     clear: both;
 background: teal;
 height: 30px;
-width: 250px;
+max-width: 515px;
 margin-bottom: 15px;
 color: white;
 line-height: 30px;
@@ -73,7 +73,40 @@ line-height: 30px;
 .userNumber {
     background: teal;
     height: 100px;
-    width: 250px;
+    max-width: 515px;
     font-size: 40px;
     color: white;
 }
+.container{
+    display: grid;
+    background: cyan;
+    height: 80px;
+    width: 207px;
+
+  }
+  .numberAndStats
+  {float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+max-width: 515px;}
+  .instructions {
+    height: 200px;
+    max-width: 515px;
+    background: tan;
+    margin-bottom: 10px;
+  }
+  .numberContainer {
+    float: left;
+    height: 80px;
+    max-width: 500px;
+    background: teal;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .row {
+  }
+  .col1, .col2 {
+    float: left;
+    width: 50px;
+  }
+  

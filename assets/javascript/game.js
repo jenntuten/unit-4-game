@@ -1,6 +1,6 @@
 $(document).ready(function () {
             //each crystal is assigned the value before clicking
-            let crystalsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+            let crystalsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
                 let crystal1 = crystalsArray[Math.floor(Math.random() * crystalsArray.length)];
                 let crystal2 = crystalsArray[Math.floor(Math.random() * crystalsArray.length)];
                 let crystal3 = crystalsArray[Math.floor(Math.random() * crystalsArray.length)];
