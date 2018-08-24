@@ -1,25 +1,19 @@
 body {
-background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
 }
-
-p {margin: 10px;}
+p {
+    margin: 10px;
+}
 .titleBox {
-    height: 60px;
-    max-width: 515px;
-    background: brown;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 60px;
-    margin-bottom: 15px;
-}
-.description {
-    max-width: 500px;
-    background: tan;
-    color: green;
-    font-weight: bold;
-    margin-bottom: 15px;
+height: 60px;
+max-width: 515px;
+background: brown;
+color: white;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+line-height: 60px;
+margin-bottom: 15px;
 }
 .randomComputerNumber {
 float: left;
@@ -30,35 +24,33 @@ margin-bottom: 15px;
 margin-right: 8px;
 font-size: 40px;
 }
-.winsAndLosses {
-float: left;
-background: cyan;
-height: 80px;
-width: 250px;
-margin-bottom: 15px;
-}
 .crystals {
-    clear: both;
-    margin-bottom: 15px;
+clear: both;
+margin-bottom: 15px;
 }
 .crystal1, .crystal2, .crystal3, .crystal4 {
 clear:both;
 display: inline;
-margin-right: 10px;
+margin-right: 31px;
 background: white;
 margin-bottom: 15px;
 }
-.card {background: tan;
+.card {
+background: tan;
 margin-bottom: 15px;
 color: green;
-max-width: 515px;}
-.btn, .btn:hover, btn:visited {text-decoration: none !important;
-color: green;}
-a, a:hover, a:visited { text-decoration: none !important;
-color: green;}
-
+max-width: 515px;
+}
+.btn, .btn:hover, btn:visited {
+text-decoration: none !important;
+color: green;
+}
+a, a:hover, a:visited {
+text-decoration: none !important;
+color: green;
+}
 .scoreBar {
-    clear: both;
+clear: both;
 background: teal;
 height: 30px;
 max-width: 515px;
@@ -67,55 +59,53 @@ color: white;
 line-height: 30px;
 }
 .userNumber {
-    background: teal;
-    height: 100px;
-    max-width: 515px;
-    font-size: 40px;
-    color: white;
+background: teal;
+height: 100px;
+max-width: 515px;
+font-size: 40px;
+color: white;
 }
 .container{
-    display: grid;
-    background: cyan;
-    height: 80px;
-    width: 257px;
-
-  }
-  .numberAndStats
-  {float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-    max-width: 515px;}
-  .instructions {
-    height: 200px;
-    max-width: 515px;
-    background: tan;
-    margin-bottom: 10px;
-  }
-  .numberContainer {
-    float: left;
-    height: 80px;
-    max-width: 500px;
-    background: teal;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  .row {
-  }
-  .col1, .col2 {
-    float: left;
-    width: 60px;
-  }
-  @media screen and (max-width:515px){
+display: grid;
+background: cyan;
+height: 80px;
+width: 257px;
+}
+.numberAndStats{
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+max-width: 515px;
+}
+.instructions {
+height: 200px;
+max-width: 515px;
+background: tan;
+margin-bottom: 10px;
+}
+.numberContainer {
+float: left;
+height: 80px;
+max-width: 500px;
+background: teal;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.col1, .col2 {
+float: left;
+width: 60px;
+}
+@media screen and (max-width:640px){
     .randomComputerNumber {
-        margin-bottom: 8px;
-        width: 515px;
+    margin-bottom: 8px;
+    width: 640px;
     }  
     .container {
-          clear: both;
-          width: 515px;
-      }
-      .crystals
-      {width: 280px;
+    clear: both;
+    width: 640px;
+    }
+    .crystals{
+    width: 280px;
     margin: 0 auto;}
-  }
+    }
   

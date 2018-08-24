@@ -18,14 +18,6 @@
     <div class="titleBox">
         <p>CrystalsCollector!</p>
     </div>
-    <!--<div class="description">
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount to your total score.</p>
-        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above
-            the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
-    </div>-->
     <div class="accordion" id="accordionExample">
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -48,32 +40,24 @@
           </div>
         </div>
       </div>
-    <!--<div class="randomComputerNumber">
-        <p>#</p>
-    </div>
-    <div class="winsAndLosses">
-        <div class="win">Wins:<div class="wins"></div></div>
-        <div class="lose">Losses:<div class="losses"></div></div>
-    </div>
--->
     <div class="numberAndStats">
             <div class="randomComputerNumber"></div>
            <div class="container">
             <div class="row">
              <div class="col1">Wins: </div>
-              <div class="wins">#</div>
+              <div class="wins">0</div>
            </div>
              <div class="row">
              <div class="col1">Losses: </div>
-              <div class="losses">#</div>
+              <div class="losses">0</div>
            </div>
              </div>
            </div>
     <div class="crystals">
-        <button class="crystal1"><img src="assets/images/bluegem.png"></button>
-        <button class="crystal2"><img src="assets/images/purplegem.png"></button>
-        <button class="crystal3"><img src="assets/images/greengem.png"></button>
-        <button class="crystal4"><img src="assets/images/redgem.png"></button>
+        <img src="assets/images/bluegem.png" id="crystal1" class="crystal1">
+        <img src="assets/images/purplegem.png" id="crystal2" class="crystal2">
+        <img src="assets/images/greengem.png" id="crystal3" class="crystal3">
+        <img src="assets/images/redgem.png" id="crystal4" class="crystal3">
     </div>
     <div class="scoreBar">
         <p>Your total score is:</p>
