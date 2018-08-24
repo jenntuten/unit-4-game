@@ -1,6 +1,5 @@
 body {
 background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
-font-family: 'Times New Roman', Times, serif
 }
 
 p {margin: 10px;}
@@ -14,7 +13,6 @@ p {margin: 10px;}
     text-align: center;
     line-height: 60px;
     margin-bottom: 15px;
-
 }
 .description {
     max-width: 500px;
@@ -27,7 +25,7 @@ p {margin: 10px;}
 float: left;
 background:cadetblue;
 height: 80px;
-width: 300px;
+width: 250px;
 margin-bottom: 15px;
 margin-right: 8px;
 font-size: 40px;
@@ -36,7 +34,7 @@ font-size: 40px;
 float: left;
 background: cyan;
 height: 80px;
-width: 200px;
+width: 250px;
 margin-bottom: 15px;
 }
 .crystals {
@@ -53,13 +51,11 @@ margin-bottom: 15px;
 .card {background: tan;
 margin-bottom: 15px;
 color: green;
-font-family: 'Times New Roman', Times, serif;
 max-width: 515px;}
-.btn, .btn:hover, btn:visited {text-decoration: none;
+.btn, .btn:hover, btn:visited {text-decoration: none !important;
 color: green;}
-a, a:hover, a:visited { text-decoration: none;
-color: green;
-font-family: 'Times New Roman', Times, serif}
+a, a:hover, a:visited { text-decoration: none !important;
+color: green;}
 
 .scoreBar {
     clear: both;
@@ -81,14 +77,14 @@ line-height: 30px;
     display: grid;
     background: cyan;
     height: 80px;
-    width: 207px;
+    width: 257px;
 
   }
   .numberAndStats
   {float: left;
   margin-right: 10px;
   margin-bottom: 10px;
-max-width: 515px;}
+    max-width: 515px;}
   .instructions {
     height: 200px;
     max-width: 515px;
@@ -108,5 +104,18 @@ max-width: 515px;}
   .col1, .col2 {
     float: left;
     width: 50px;
+  }
+  @media screen and (max-width:515px){
+    .randomComputerNumber {
+        margin-bottom: 8px;
+        width: 515px;
+    }  
+    .container {
+          clear: both;
+          width: 515px;
+      }
+      .crystals
+      {width: 280px;
+    margin: 0 auto;}
   }
   
