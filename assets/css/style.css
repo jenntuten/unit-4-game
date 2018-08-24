@@ -103,7 +103,7 @@ line-height: 30px;
   }
   .col1, .col2 {
     float: left;
-    width: 50px;
+    width: 60px;
   }
   @media screen and (max-width:515px){
     .randomComputerNumber {
