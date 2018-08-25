@@ -1,1 +1,10 @@
 # unit-4-game
+After spending a week determined to get my hangman game to work (and finally putting together some small and vital pieces together the night before it was due), I opted for the CrystalCollector game. There were a couple of times that I attempted to code the RPG game, but my goal was to submit one working game and not risk submitting two half-completed games. \
+\
+The CrystalCollector game was a challenge in itself - there were a few stumbling blocks that took quite some time to correct, but overall I was able to spend more time going back and seeing how to make things better. \
+\
+Perhaps the biggest challenge was getting the values to behave as they should. I set several variables so that each crystal, when clicked, would take the value from the number on the screen and add its own value to it. That part took some time to figure out, but the real obstacle came when a win scenario came up and automatically set the score above the matching score, resulting in a loss. At this point, 1 win would be followed immediately by a loss on the screen. There were some variables in my if statements that I moved into the function, rather than inside the if statement, which got the game to tally wins and losses properly.\
+\
+The second challenge was minimizing the lines of code while keeping the game intact. I worked through it with my tutor and was able to contain every click within one function. I'd seen it done in class before, and had some practice with it in the activities, but after getting the game to work the first time, I was hesitant to pick my code apart at the risk of ruining the functionality. Previously, each crystal was assigned its own function when clicked. They all essentially accomplished the same goal: added to the existing score with each click, determined whether the value matched the random number or exceeded it, and started a new game when either condition was met. \
+\
+Overall, I enjoyed the challenge of working on this game, despite any frustrations I encountered when things didn't work the way they did. I've saved the code I've started with on the RPG game, and I'll continue to work on it until I get it right.
